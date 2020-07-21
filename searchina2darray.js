@@ -29,7 +29,7 @@ let n = matrix[0].length
 let low = 0
 let high = m * n - 1
 
-while (start < end) {
+while (start <= end) {
     let mid = Math.floor((start + end) / 2)
     let midElement = matrix[Math.floor(mid / n)][mid % n]
 
