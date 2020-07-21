@@ -26,8 +26,8 @@ return false
 let m = matrix.length 
 let n = matrix[0].length
 
-let start = 0
-let end = m * n - 1
+let low = 0
+let high = m * n - 1
 
 while (start < end) {
     let mid = Math.floor((start + end) / 2)
